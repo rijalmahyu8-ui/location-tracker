@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Location Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🌍 Location Tracker</h1>
+    <input type="text" id="ipInput" placeholder="Masukkan IP target">
+    <button onclick="trackIP()">Lacak</button>
+
+    <div id="result"></div>
+    <div id="map"></div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
