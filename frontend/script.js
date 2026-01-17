@@ -5,8 +5,8 @@ async function trackIP() {
     return;
   }
 
-  // Ganti URL ini dengan Railway backend kamu
-  const backendURL = "https://location-backend.up.railway.app";
+  // Ganti URL ini dengan InfinityFree backend kamu
+  const backendURL = "https://location-tracker.page.gd/";
 
   const response = await fetch(`${backendURL}/index.php?ip=${ip}`);
   const data = await response.json();
